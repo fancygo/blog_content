@@ -16,23 +16,21 @@ url: /linux/linux_log/
 > 日志存放目录 /val/log/  
 > 日志系统配置 /etc/rsyslog.conf  
 ---
-> 设置日志服务器  
-> 1. 两台机，svr修改 rsyslog.conf，如下，这两行原本是注释掉的
+> 设置日志服务器, 两台机，客户机会把各种日志信息发往服务机
+> 1. svr 修改 rsyslog.conf，如下，这两行原本是注释掉的
 > > ```
 > > $ModLoad imtcp
 > > $InputTCPServerRun 514
 > > ```
-> 2. 重启日志服务
+> 2. 重启 svr 日志服务
 > > ```
 > > systemctl restart rsyslog.service
 > > ```
----
-> 设置网络日志  
-> 1. cli 修改 rsyslog.conf，如下，表示往ip上发所有日志
+> 3. cli 修改 rsyslog.conf，如下，表示往ip上发所有日志
 > > ```
 > > #*.* @@[ip]
 > > ```
-> 2. 重启日志服务
+> 4. 重启 cli 日志服务
 > > ```
 > > systemctl restart rsyslog.service
 > > ```

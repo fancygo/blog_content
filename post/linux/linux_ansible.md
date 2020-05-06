@@ -38,7 +38,7 @@ url: /linux/linux_ansible/
 > ```
 
 ### 3.测试
-> 在管理机中断输入如下命令，all表示向所有主机发送ping测试
+> 在管理机终端输入如下命令，all表示向所有主机发送ping测试
 > ```
 > ansible all -m ping
 > ```
