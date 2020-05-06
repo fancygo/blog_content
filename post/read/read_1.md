@@ -7,7 +7,7 @@ tags:
  - Linux
  - Go
 title: "读许式伟架构课记录1"
-url: /read/read_xushiwei_1/
+url: /read/read_1/
 ---
 
 ### 1. 线程的主要成本
