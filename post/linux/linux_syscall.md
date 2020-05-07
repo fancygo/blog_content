@@ -23,16 +23,16 @@ url: "/linux/linux_syscall"
 > 写入 write  
 
 ### 3. 进程管理
-> 创建进程 fork
-> 运行新二进制文件 execve
-> 等待子进程结束 waitpid
+> 创建进程 fork  
+> 运行新二进制文件 execve  
+> 等待子进程结束 waitpid  
 
 ### 4. 网络通信
-> 创建套接字 socket
-> 绑定端口 bind
-> 发起连接 connect
-> 监听 listen
-> 接收连接 accept
+> 创建套接字 socket  
+> 绑定端口 bind  
+> 发起连接 connect  
+> 监听 listen  
+> 接收连接 accept  
 
 ### 5. 进程间通信
 > 1. 消息队列
