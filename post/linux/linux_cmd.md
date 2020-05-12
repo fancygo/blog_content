@@ -77,7 +77,7 @@ url = "/linux/linux_cmd/"
 > netstat -anpt
 > ```
 
-### basename返回绝对路径的最后一个
+### basename 返回绝对路径的最后一个
 > ```
 > basename /home/fc/hello
 > 会打印出hello
@@ -85,11 +85,11 @@ url = "/linux/linux_cmd/"
 
 ### lastlog 返回最近登陆用户
 
-### htop管理进程
+### htop 管理进程
 
 ### ctrl-z 和 fg 配合使用
 
-### sudo!! 使用sudo运行上一条没有sudo的命令
+### sudo!! 使用 sudo 运行上一条没有 sudo 的命令
 
 ### 一系列控制命令
 > ```
@@ -102,4 +102,9 @@ url = "/linux/linux_cmd/"
 > ALT + B -跳回上一个空格
 > ALT + Backspace -删除前一个单词
 > CTRL + W -剪切光标后一个单词
+> ```
+
+### 在指定文件中查找字符串，比 find 会快一点
+> ```
+> grep -rn --color --include=*.go $1
 > ```
