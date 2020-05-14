@@ -23,7 +23,7 @@ url = "/about/"
  * 爱好广泛，喜欢气象、天文、生物、足球、乒乓球、电影等等等。
 
 ### 一些链接
- * 主页: [http://fancygo.cn](http://fancygo.net)
+ * 主页: [http://fancygo.net](http://fancygo.net)
  * Github: [github.com/fancygo](https://github.com/fancygo)
  * 知乎专栏: [zhuanlan.zhihu.com/fancygo](https://zhuanlan.zhihu.com/fancygo)
  * Email：717632318@qq.com
