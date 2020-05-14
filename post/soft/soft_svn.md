@@ -66,10 +66,11 @@ url: "/soft/soft_svn"
 > > * =
 > > ```
 > svnserve.conf 文件是 svn 服务器启动配置，将下面几行的注释去掉即可
-> > auth-access = write 
-> > password-db = passwd
-> > authz-db = authz
-> > realm = My First Repository
+> > ```
+> > auth-access = write   
+> > password-db = passwd  
+> > authz-db = authz  
+> > realm = My First Repository  
 > > ```
 
 # 4. 启动 svn 服务
